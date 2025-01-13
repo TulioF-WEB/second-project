@@ -1,7 +1,8 @@
 :root {
-    --main-bg-color: brown;
+    --main-bg-color:#ddf1fd;
+  
+    
   }
-
 div.gallery {
     border: 1px solid #ccc;
   }
@@ -18,6 +19,8 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    font-family: "Oswald";
+    font-weight: 400;
   }
   
   *, *:before, *:after {
@@ -58,7 +61,7 @@ div.gallery {
     /* display: grid; */
     /* grid-template-rows: auto 1fr auto; */
     font-size: 14px;
-    background-color: #f4f4f4;
+    background-color:var(--main-bg-color);
     align-items: start;
     min-height: 100vh;
   }
@@ -68,7 +71,7 @@ div.gallery {
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
     color: #2f2f2f;
-    background-color: #fff;
+    background-color: #000000;
     border-top: 1px solid #e5e5e5;
   }
   
@@ -85,7 +88,8 @@ div.gallery {
     font-family: 'Pacifico', cursive;
     font-weight: 400;
     text-transform: lowercase;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: aqua;
   }
   
   .footer__addr h2 {
@@ -111,7 +115,7 @@ div.gallery {
     justify-content: center;
     height: 36px;
     max-width: max-content;
-    background-color: rgb(33, 33, 33, 0.07);
+    background-color: rgba(67, 147, 189, 0.445);
     border-radius: 100px;
     color: #2f2f2f;
     line-height: 0;
@@ -131,6 +135,11 @@ div.gallery {
   
   .footer a {
     text-decoration: none;
+  }
+  footer a:hover {
+    color: #346cdb; /* Change color on hover */
+    transform: scale(1.1); /* enlarge the text on hover */
+    text-decoration: underline; /* underline on hover */
   }
   
   .footer__nav {
@@ -187,10 +196,14 @@ div.gallery {
     }
   }
 
-  .legal p, .legal__links span, .footer p, .footer h2, .footer a {
+  .legal p, .legal__links span, .footer p, .footer a {
     font-family: "Oswald";
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .introinfo, .introdescript {
     font-family: "Poppins";
+}
+.footer h2 {
+  font-family: "Oswald";
+  color: aqua;
 }
