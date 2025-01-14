@@ -8,9 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2 class="introinfo">Check out some of our new bundles!</h2>
+  <div class="page-wrapper">
+    <div class="nav-wrapper">
+     <div class="grad-bar"></div>
+     <nav class="navbar">
+       <img src="https://img.freepik.com/premium-vector/minimal-agency-logo-design-with-two-color-white-background-premium-vector_729473-43.jpg" alt="Company Logo">
+       <input type="checkbox" id="menu-toggle" class="hidden-checkbox">
+       <label for="menu-toggle" class="menu-toggle">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+       </label>
+       <ul class="nav no-search">
+         <li class="nav-item"><a href="#">Home</a></li>
+         <li class="nav-item"><a href="#">About</a></li>
+         <li class="nav-item"><a href="questions.html">FAQ</a></li>
+         <li class="nav-item"><a href="#">Careers</a></li>
+         <li class="nav-item"><a href="#">Contact Us</a></li>
+         <input type="checkbox" id="search-toggle" class="hidden-checkbox">
+         <label for="search-toggle" id="search-icon" class="fas fa-search"></label>
+         <input type="text" class="search-input" placeholder="Search..">
+       </ul>
+     </nav>
+     </div>
+     <!-- <section class="headline">
+       <h1>Get ready for the best trip of your life</h1>
+       <p>Tons of new bundles every month!</p>
+     </section> -->
+ 
+  <h2 class="introinfo">Check out some of our new bundles!</h2>
 
 <h4 class="introdescript">And more to come soon.</h4>
 
@@ -19,7 +48,7 @@
     <a target="_blank" href="assets/seoul-splash1.jpg">
       <img src="assets/seoul-splash1.jpg" alt="Seoul" width="600" height="400">
     </a>
-    <div class="desc">Soul, South Korea</div>
+    <div class="desc">Seoul, South Korea</div>
   </div>
 </div>
 
@@ -53,9 +82,66 @@
 <div class="clearfix"></div>
 
 <div style="padding:6px;">
-  <p>*These bundles will be available for limited time.</p>
-  <p>Please contact a employee to check availability.</p>
+  <p style="font-weight: bold; color: white;">*These bundles will be available for limited time.</p>
+  <p style="font-weight: bold; color: white;">Please contact a employee to check availability.</p>
 </div>
+
+<div class="main-container">
+  <div class="box">
+    <img src="./assets/illustration-box-desktop.svg">
+  </div>
+  <div class="woman-img">
+    <img class="mob-img" src="./assets/illustration-woman-online-mobile.svg">
+    <img class="desk-img" src="./assets/illustration-woman-online-desktop.svg">
+  </div>
+
+  <div class="faq">
+    <h1>faq</h1>
+    <div class="items">
+      <div class="item" id="q1">
+        <a class="item-link" href="#q1">How early should i get to the airport?
+          <i class="arrow"><img src="./assets/icon-arrow-down.svg" alt=""></i>
+        </a>
+        <div class="answer">
+          <p> You should arrive preferably at least 2 hours before a international flight and 1 hour before a domestic flight.</p>
+        </div>
+      </div>
+
+      <div class="item" id="q2">
+        <a class="item-link" href="#q2"> What is the maximum luggage weight?
+          <i class="arrow"><img src="./assets/icon-arrow-down.svg" alt=""></i></a>
+        <div class="answer">
+          <p>No more than 50 pounds (23kg) for international flights and 28 pounds (13kg) for domestic flights .</p>
+        </div>
+      </div>
+
+      <div class="item" id="q3">
+        <a class="item-link" href="#q3">How do i contact you if i want to cancel or change my trip?
+          <i class="arrow"><img src="./assets/icon-arrow-down.svg" alt=""></i></a>
+        <div class="answer">
+          <p>We recommend contacting us via E-mail for faster response. You can also contact us via WhatsApp : +1 (452) 9111-9222</p>
+        </div>
+      </div>
+
+      <div class="item" id="q4">
+        <a class="item-link" href="#q4">Can I cancel my trip?
+          <i class="arrow"><img src="./assets/icon-arrow-down.svg" alt=""></i></a>
+        <div class="answer">
+          <p>Yes! Send us a message with your details and we will proccess your application as fast as possible. Keep in mind u will still have to pay the fee.</p>
+        </div>
+      </div>
+
+      <div class="item" id="q5">
+        <a class="item-link" href="#q5">Do you provide additional support?
+          <i class="arrow"><img src="./assets/icon-arrow-down.svg" alt=""></i></a>
+        <div class="answer">
+          <p>Yes! if you have and doubts or need help feel free to contact us. Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <footer class="footer">
     <div class="footer__addr">
       <h1 class="footer__logo">Chandan Agency</h1>
@@ -89,31 +175,31 @@
       </li>
       
       <li class="nav__item nav__item--extra">
-        <h2 class="nav__title">Technology</h2>
+        <h2 class="nav__title">Bundles</h2>
         
         <ul class="nav__ul nav__ul--extra">
           <li>
-            <a href="#">Hardware Design</a>
+            <a href="#">Rio de Janeiro</a>
           </li>
           
           <li>
-            <a href="#">Software Design</a>
+            <a href="#">Seoul</a>
           </li>
           
           <li>
-            <a href="#">Digital Signage</a>
+            <a href="#">Paris</a>
           </li>
           
           <li>
-            <a href="#">Automation</a>
+            <a href="#">Shibuya</a>
           </li>
           
           <li>
-            <a href="#">Artificial Intelligence</a>
+            <a href="#">Las Vegas</a>
           </li>
           
           <li>
-            <a href="#">IoT</a>
+            <a href="#">Vancouver</a>
           </li>
         </ul>
       </li>
