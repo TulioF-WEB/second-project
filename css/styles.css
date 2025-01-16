@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700');
 *{
   margin: 0;
   padding: 0;
@@ -632,8 +633,6 @@ width: 150px;
 }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700');
-
 /* Remove font-family from body */
 /* body {
   -webkit-font-smoothing: antialiased;
@@ -734,10 +733,10 @@ button {
   flex: 1 100%;
 }
 
-.footer__addr {
+/* .footer__addr {
   margin-right: 1.25em;
   margin-bottom: 2em;
-}
+} */
 
 .footer__logo {
   font-family: 'Pacifico', cursive;
@@ -748,22 +747,23 @@ button {
   text-align: start;
 }
 
-.footer__addr h2 {
+/* .footer__addr h2 {
   margin-top: 1.3em;
   font-size: 15px;
   font-weight: 400;
-}
+} */
 
 .nav__title {
   font-weight: 400;
   font-size: 15px;
 }
 
-.footer address {
+/* .footer address {
   font-style: normal;
   color: #000000;
   font-family: "Oswald";
-}
+} */
+
 
 .footer__btn {
   display: flex;
@@ -1041,7 +1041,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a45484d', e
   vertical-align: middle;
 }
 
-.headlineone {
+h1.headlineone {
   font-size:48px;
   line-height: 1em;
   margin-bottom:18px;
@@ -1050,9 +1050,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a45484d', e
   opacity:0.6;
 }
 
-h1+p{
+h1 + p {
   text-transform:uppercase;
   color: #bac2ca;
   letter-spacing:2px;
-  margin:none;
+  /* margin:none; */
+}
+
+.footer__socialss a {
+  margin: 0 15px 10px 10px;
+  font-size: 1.5rem;
+  color: aqua; /* Use your footer text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__socialss a:hover {
+  color: #007bff; /* Highlight color on hover */
 }
