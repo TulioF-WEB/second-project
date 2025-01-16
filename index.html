@@ -4,8 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Packages Section</title>
-  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" /> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -282,17 +289,13 @@
         </div>
         <div class="form-group">
           <label for="bundle">Bundle <i>(Select an option)</i></label>
-          <select name="bundle" id="bundlesel">
+          <select name="bundle" id="bundle">
             <option value="Seoul">Seoul</option>
             <option value="Las Vegas">Las Vegas</option>
             <option value="Bangkok">Bangkok</option>
             <option value="Tokyo">Tokyo</option>
           </select>
         </div>
-        <!-- <div class="form-group">
-          <label for="last-name">Last Name <i>(Max 30 Characters a-z and A-Z)</i></label>
-          <input type="text" name="lastName" id="last-name">
-        </div> -->
         <div class="form-group">
           <label for="date">Check-in</label>
           <input type="date" name="date" id="date">
@@ -313,13 +316,6 @@
           <label for="number">Mobile Number <i>(10 Digit Number)</i></label>
           <input type="number" name="number" id="number">
         </div><br />
-        <!-- <div class="gender">
-        <label for="gender" style="color: white;">Gender</label><br /><br />
-        <label for="radio-m" style="color: white;">Male</label>
-        <input type="radio" name="radio-m" id="radio-m">
-        <label for="radio-m" style="color: white;">Female</label>
-        <input type="radio" name="radio-f" id="radio-f">
-      </div> -->
         <div class="form-group">
           <label for="address">Address</label>
           <input type="text" name="address" id="address">
@@ -349,12 +345,21 @@
       <h1 class="footer__logo">Chandan Agency</h1>
 
       <h2>Contact</h2>
-
-      <address>
-        91839 West Street,Vancouver,CA<br>
-
+      <div class="footer__socialss">
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <!-- <address>
+        91839 West Street,Vancouver,CA<br> -->
         <a class="footer__btn" href="mailto:chandanagency@gmail.com">Email Us</a>
-      </address>
+      <!-- </address> -->
     </div>
 
     <ul class="footer__nav">
